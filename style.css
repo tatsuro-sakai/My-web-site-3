@@ -1,0 +1,146 @@
+
+body {
+    background-color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.list {
+    display: block;
+    overflow: hidden;
+    width: 500px;
+    height: 100px;
+    list-style: none;
+}
+
+.list a {
+    text-decoration: none;
+    color: #40A2D8;
+    float: left;
+    padding: 10px;
+}
+
+
+.background {
+    background-color: #F0EDCF;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 25px;
+
+}
+.welcome {
+    display: flex;
+    
+}
+.img1 {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 30px;
+    border: 7px solid black;
+    margin: 10px;
+    margin-top: auto;
+}
+
+.hallo {
+    border-radius: 30px;
+    padding: 35px;
+    border: 7px solid black;
+    margin: 10px;
+    width: auto;
+    flex-grow: 1;
+    
+    margin-top: auto;
+}
+h1 {
+    font-size: 3.5rem;
+}
+.hallo-text {
+    position: relative;
+}
+.Skill {
+    border-radius: 30px;
+    padding: 35px;
+    border: 7px solid black;
+    margin: 10px;
+    width: auto; 
+    text-align: justify;
+    flex-grow: 1;
+}
+.languege {
+    border-radius: 30px;
+    padding: 35px;
+    border: 7px solid black;
+    margin: 10px;
+    width: auto; 
+    text-align: justify;
+    flex-grow: 1;
+}
+
+h2 {
+    font-size: 2rem;
+}
+.flex {
+    display: flex;
+}
+
+html {scroll-behavior: smooth;}
+
+.email{
+    text-align: center;
+    padding: 3%;
+}
+@media (min-width: 768px) and (max-width: 1200px){
+    .welcome {
+        display: inline;
+    }
+    .img1 {
+        padding: 5px;
+        
+    }
+   .languege{
+        width: 100%;
+    }
+    .Skill{
+        width: 100%;
+    }
+        
+    
+
+}
+@media (max-width: 767px){
+    .welcome {
+        display: inline;
+    }
+    .img1{
+        width: auto;
+    }
+    .flex{
+        display: inline;
+        
+    }
+    .languege {
+        margin-right: ;
+    }
+    .Skill {
+        grid-column: auto;
+    }
+}
+   
+   
+   
+
+
